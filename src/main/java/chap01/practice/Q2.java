@@ -1,6 +1,9 @@
-package chap01;
+package chap01.practice;
 
-public class Min3 {
+/**
+ * 3개의 정숫값중에 최소값을 구하기
+ */
+public class Q2 {
     static int min3(int a, int b, int c) {
         int min = a;
         if (b < min) {

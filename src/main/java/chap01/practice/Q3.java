@@ -1,6 +1,9 @@
-package chap01;
+package chap01.practice;
 
-public class Min4 {
+/**
+ * 4개의 정숫값중에 최소값을 구하기
+ */
+public class Q3 {
     static int min4(int a, int b, int c, int d) {
         int min = a;
         if (b < min) {

@@ -1,5 +1,8 @@
 package chap01;
 
+/**
+ * 3개의 정숫값중에 최대값을 구하기
+ */
 public class Max3m {
     static int max3(int a, int b, int c) {
         int max = a;

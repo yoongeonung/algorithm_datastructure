@@ -2,6 +2,9 @@ package chap01;
 
 import java.util.Scanner;
 
+/**
+ * 3개의 정숫값을 입력받아 최대값을 구하기
+ */
 public class Max3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
