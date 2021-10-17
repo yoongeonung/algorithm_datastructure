@@ -7,12 +7,9 @@ public class Q8 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("n의 값 : ");
         int n = scanner.nextInt();
-        int s = 1;
-        int quotient = n / 2;
-        int rest = n % 2;
-        int some = quotient + rest;
         // Gauss
-        int result = (s + n) * quotient + some;
-        System.out.println("result = " + result);
+        int result1 = n % 2 == 0 ? (1 + n) * n / 2 : (1 + n) * (n / 2) + ((n / 2) + (n % 2));
+        int result2 = (1 + n) * (n / 2) + (n % 2 == 0 ? 0 : ((n / 2) + (n % 2)));
+        System.out.println("result = " + result2);
     }
 }
