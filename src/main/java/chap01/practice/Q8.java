@@ -10,6 +10,7 @@ public class Q8 {
         // Gauss
         int result1 = n % 2 == 0 ? (1 + n) * n / 2 : (1 + n) * (n / 2) + ((n / 2) + (n % 2));
         int result2 = (1 + n) * (n / 2) + (n % 2 == 0 ? 0 : ((n / 2) + (n % 2)));
+
         System.out.println("result = " + result2);
     }
 }
