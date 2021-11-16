@@ -20,7 +20,7 @@ public class Max3m {
         for (int i = 0; i < 13; i++) {
             int[] arr = new int[3];
             for (int j = 0; j < 3; j++) {
-                int rand = (int)(Math.random() * 8) + 1;
+                int rand = (int)(Math.random() * 9) + 1; // 1~9
                 arr[j] = rand;
             }
             System.out.printf("max(%d, %d, %d) = %d \n",arr[0], arr[1], arr[2], max3(arr[0], arr[1], arr[2]) );
