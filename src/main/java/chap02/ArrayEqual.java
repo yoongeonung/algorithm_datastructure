@@ -9,6 +9,7 @@ public class ArrayEqual {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[] array1 = createArrays(br);
         int[] array2 = createArrays(br);
+
         System.out.println("두배열은 " + (equalsArray(array1, array2) ? "같습니다" : "다릅니다"));
     }
 
