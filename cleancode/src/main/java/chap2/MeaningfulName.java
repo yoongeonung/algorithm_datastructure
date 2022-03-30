@@ -40,13 +40,13 @@ public class MeaningfulName {
     // 3.
     // int[] 대신 간단한 클래스를 생성해서 대체
     // isFlagged()라는 좀 더 명시적인 함수를 이용해서 상수를 감추었다
-    public List<Cell> getFlaggedCells2() {
-        List<Cell> flaggedCells = new ArrayList<>();
-        for (Cell cell : gameBoard) {
-            if (cell.isFlagged()) {
-                flaggedCells.add(cell);
-            }
-        }
-        return flaggedCells;
-    }
+//    public List<Cell> getFlaggedCells2() {
+//        List<Cell> flaggedCells = new ArrayList<>();
+//        for (Cell cell : gameBoard) {
+//            if (cell.isFlagged()) {
+//                flaggedCells.add(cell);
+//            }
+//        }
+//        return flaggedCells;
+//    }
 }
