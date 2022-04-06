@@ -15,6 +15,8 @@ public class BubbleSort {
         boolean sorted = false;
         while (!sorted) {
             int temp = 0;
+            // 어떤 교환도 하지 않고 전체 패스스루를 통과할때 sorted가 true로 남아서 정렬된것을 알 수 있다.
+            // どんな交換もしてないままパーススルーを通過する時sortedがtrueになっていると整列されたと考えられる。
             sorted = true;
             for (int i = 0; i < unSortedUntilIndex; i++) {
                 if (array[i] > array[i + 1]) {
