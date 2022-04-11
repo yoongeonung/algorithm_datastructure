@@ -1,7 +1,5 @@
 package chap4;
 
-import java.util.Arrays;
-
 public class ON2 {
     public static void main(String[] args) {
         System.out.println(hasDuplicateValue(new int[]{1, 5, 4, 3, 6, 7, 9, 2, 10}));
